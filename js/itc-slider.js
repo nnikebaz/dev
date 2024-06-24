@@ -28,6 +28,7 @@ class ItcSlider {
    * @param {Object} config
    * @param {String} prefix
    */
+
   constructor(el, config = {}, prefix = 'itc-slider__') {
 
     this.#state = {

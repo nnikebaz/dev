@@ -658,8 +658,12 @@ textarea.form-control {
   justify-content: space-between;
   width: 100%;
 }
-.header-section__wrapper img {
+.header-section__wrapper a {
   max-width: 15%;
+  height: 100%;
+}
+.header-section__wrapper img {
+  max-width: 100%;
 }
 .header-section__toogle {
   display: none;

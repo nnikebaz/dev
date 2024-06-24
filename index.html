@@ -7,7 +7,7 @@
     <link rel="icon" href="./favicon_32x32.ico" sizes="32x32">
     <link rel="icon" href="./icons/favicon_16x16.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="./icons/favicon_180x180.png"><!-- 180×180 -->
-    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="manifest" href="./manifest.webmanifest">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,9 +30,9 @@
             <div class="container">
 
                 <div class="header-section__wrapper">
-                    <img src="./icons/ZBS-design-logo.svg" alt="Логотип">
+                    <a href="/"><img src="./icons/ZBS-design-logo.svg" alt="Логотип"></a>
                     <input type="checkbox" class="header-section__toogle" id="header-toogle">
-                    <label for="header-toogle" class="header-section__button">
+                    <label for="header-toogle" class="header-section__button" tabindex="0">
                         <span class="header-section__icon"></span>
                     </label>
                 </div>
@@ -84,6 +84,7 @@
                     <h2 class="main-title m-b-6">Проекты</h2>
 
                     <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-loop="true">
+                        <button class="itc-slider__btn itc-slider__btn_prev"></button>
                         <div class="itc-slider__wrapper">
                             <div class="itc-slider__items">
                                 <div class="itc-slider__item">
@@ -91,7 +92,7 @@
                                         <p class="itc-slider__first-title">10 000 рублей</p>
                                         <p class="itc-slider__second-title">Разработка лендинга для&nbsp;рекламной акции Xiaomi</p>
                                     </div>
-                                    <a class="itc-slider__image-wrapper">
+                                    <a class="itc-slider__image-wrapper" tabindex="0">
                                         <div class="itc-slider__image">
                                             <picture>
                                                 <source srcset="./img/case_bg.jpg" media="(min-width: 1200px)">
@@ -116,7 +117,7 @@
                                         <p class="itc-slider__first-title">Service-Expert</p>
                                         <p class="itc-slider__second-title">Разработка крутого сайта для&nbsp;сервиса эксперта</p>
                                     </div>
-                                    <a class="itc-slider__image-wrapper">
+                                    <a class="itc-slider__image-wrapper" tabindex="0">
                                         <div class="itc-slider__image">
                                             <picture>
                                                 <source srcset="./img/case_bg.jpg" media="(min-width: 1200px)">
@@ -137,7 +138,7 @@
                                         <p class="itc-slider__first-title">Подписки PS Plus</p>
                                         <p class="itc-slider__second-title">Лендинг для&nbsp;продажи подписок Sony Centre</p>
                                     </div>
-                                    <a class="itc-slider__image-wrapper">
+                                    <a class="itc-slider__image-wrapper" tabindex="0">
                                         <div class="itc-slider__image">
                                             <picture>
                                                 <source srcset="./img/case_bg.jpg" media="(min-width: 1200px)">
@@ -158,7 +159,7 @@
                                         <p class="itc-slider__first-title">Подписки PS Plus</p>
                                         <p class="itc-slider__second-title">Лендинг для&nbsp;продажи подписок Sony Centre</p>
                                     </div>
-                                    <a class="itc-slider__image-wrapper">
+                                    <a class="itc-slider__image-wrapper" tabindex="0">
                                         <div class="itc-slider__image">
                                             <picture>
                                                 <source srcset="./img/case_bg.jpg" media="(min-width: 1200px)">
@@ -179,7 +180,7 @@
                                         <p class="itc-slider__first-title">Подписки PS Plus</p>
                                         <p class="itc-slider__second-title">Лендинг для&nbsp;продажи подписок Sony Centre</p>
                                     </div>
-                                    <a class="itc-slider__image-wrapper">
+                                    <a class="itc-slider__image-wrapper" tabindex="0">
                                         <div class="itc-slider__image">
                                             <picture>
                                                 <source srcset="./img/case_bg.jpg" media="(min-width: 1200px)">
@@ -197,7 +198,6 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="itc-slider__btn itc-slider__btn_prev"></button>
                         <button class="itc-slider__btn itc-slider__btn_next"></button>
                     </div>
                    
@@ -462,11 +462,11 @@
                 </div>
                     <div class="itc-slider itc-slider-2" data-slider="itc-slider" data-loop="false" data-autoplay="true" data-interval="5000">
                         <ol class="itc-slider__indicators">
-                            <li class="itc-slider__indicator" data-slide-to="0"></li>
-                            <li class="itc-slider__indicator" data-slide-to="1"></li>
-                            <li class="itc-slider__indicator" data-slide-to="2"></li>
-                            <li class="itc-slider__indicator" data-slide-to="3"></li>
-                            <li class="itc-slider__indicator" data-slide-to="4"></li>
+                            <li class="itc-slider__indicator" data-slide-to="0" tabindex="0"></li>
+                            <li class="itc-slider__indicator" data-slide-to="1" tabindex="0"></li>
+                            <li class="itc-slider__indicator" data-slide-to="2" tabindex="0"></li>
+                            <li class="itc-slider__indicator" data-slide-to="3" tabindex="0"></li>
+                            <li class="itc-slider__indicator" data-slide-to="4" tabindex="0"></li>
                         </ol>   
                         <div class="itc-slider__wrapper">
                           <div class="itc-slider__items">
