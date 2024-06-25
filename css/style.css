@@ -17,6 +17,11 @@ button {
 html {
   font-size: 62.5%;
 }
+@media screen and (max-width: 575.98px) {
+  html {
+    font-size: 35.5%;
+  }
+}
 
 body {
   font-family: "Unbounded", sans-serif;
@@ -730,11 +735,11 @@ textarea.form-control {
   max-width: 80rem;
 }
 .offer-section__title {
-  font-size: clamp(6.5rem, 10vw, 12.5rem);
+  font-size: 12.5rem;
   margin-bottom: 3rem;
 }
 .offer-section__title span {
-  font-size: clamp(5.1rem, 10vw, 9.9rem);
+  font-size: 9.9rem;
 }
 .offer-section__photo {
   width: 30%;
@@ -748,7 +753,7 @@ textarea.form-control {
   margin-bottom: 4rem;
 }
 .offer-section__about-me p {
-  font-size: clamp(1.6rem, 3vw, 2.6rem);
+  font-size: 2.6rem;
 }
 .offer-section__about-me span {
   font-weight: 600;
