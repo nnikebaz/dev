@@ -63,6 +63,11 @@ p {
   max-width: 116rem;
   margin: 0 auto;
 }
+@media screen and (max-width: 575.98px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
 
 .p-t-2 {
   padding-top: 2rem;

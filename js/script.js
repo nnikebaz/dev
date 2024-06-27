@@ -55,7 +55,7 @@ $(document).ready(function () {
         highlight: function (element) {
           $(element).addClass("inputError");
         },
-        unhighlight: function (element) {
+        unHighlight: function (element) {
           $(element).removeClass("inputError");
         }
       });
@@ -68,7 +68,7 @@ $(document).ready(function () {
   function Smooth () {
 
     SmoothScroll({
-    // Время скролла 400 = 0.4 секунды
+    // Время скрола 400 = 0.4 секунды
     animationTime    : 400,
     // Размер шага в пикселях 
     stepSize         : 75,
@@ -85,7 +85,7 @@ $(document).ready(function () {
     // Шаг скролла стрелками на клавиатуре в пикселях
     arrowScroll       : 50,
 
-    // Pulse (less tweakable)
+    // Pulse (less tweakAble)
     // ratio of "tail" to "acceleration"
     pulseAlgorithm   : true,
     pulseScale       : 4,
@@ -96,7 +96,7 @@ $(document).ready(function () {
 })
   }
 
-  function dragElipse () {
+  function dragEllipse () {
 
     let parallaxScene1 = document.getElementById('parallax-scene-1');
     let parallaxInstance1 = new Parallax(parallaxScene1, {
@@ -123,6 +123,7 @@ $(document).ready(function () {
   noUpdateSite();
   validate();
   Smooth();
-  dragElipse();
+  dragEllipse();
+
   
 });
